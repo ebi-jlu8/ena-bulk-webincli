@@ -2,7 +2,7 @@ FROM ubuntu:18.04
 
 # Install packages
 RUN apt update && apt install -y curl wget default-jre && apt --assume-yes install python3.6
-RUN apt-get install -y python3-pandas && apt-get install -y python3-joblib
+RUN apt-get install -y python3-pandas && apt-get install -y python3-joblib && apt-get install -y python3-xlrd
 
 # Install script and software dependencies
 RUN echo "Downloading latest Webin-CLI..."
