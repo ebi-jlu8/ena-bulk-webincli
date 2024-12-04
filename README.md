@@ -14,7 +14,7 @@ An example template spreadsheet has been provided (example_template_input.txt). 
 To ease in usage, the tool has been containerised using [Docker](https://www.docker.com/). The only requirement is to have Docker [installed](https://docs.docker.com/get-docker/). Once installed, run the following commands to setup:
 
 1. Clone the repository:
-`git clone https://github.com/nadimm-rahman/ena-bulk-webincli.git && cd ena-bulk-webincli`
+`git clone https://github.com/ebi-jlu8/ena-bulk-webincli.git && cd ena-bulk-webincli`
 2. Build the docker image:
 `docker build --tag ena-bulk-webincli .`
 3. Ready to go! Run the tool using docker using the following command:
