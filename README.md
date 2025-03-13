@@ -40,7 +40,7 @@ In addition to the Docker container, a [Singularity](https://sylabs.io/guides/3.
 To use the tool without a container:
 
 1. Clone the repository:
-`git clone https://github.com/nadimm-rahman/ena-bulk-webincli.git && cd ena-bulk-webincli`
+`git clone https://github.com/ebi-jlu8/ena-bulk-webincli.git && cd ena-bulk-webincli`
 2. Download the latest version of [Webin-CLI](https://github.com/enasequence/webin-cli/releases) installed.
 3. Download tool dependencies listed below.
 4. Run the tool using `python bulk_webincli.py --help`(for help).
